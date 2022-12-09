@@ -1,0 +1,38 @@
+body {
+	background: white;
+	font-family: 'Oswald', 'Futura', sans-serif;
+}
+#wrapper {
+	margin-top: 10% !important;
+}
+#content {
+	border: 1px solid rgb(163, 217, 196);
+	border-radius: 10px 10px 5px 5px;
+	box-shadow: 0 12px 25px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: beige;
+	color: rgb(135, 193, 171);
+	padding: 25px;
+	
+}
+
+#content > h2 {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 0;
+}
+.t10 {
+	margin-top: 10px;
+}
+.t20 {
+	margin-top: 20px;
+}
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+	
+}
+
+.list-group-item{
+	color: rgb(88, 85, 85);
+}
